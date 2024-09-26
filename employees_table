@@ -1,0 +1,8 @@
+-- Create a table called employees with columns for ID, name, position, salary, and hire date.
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,       -- Employee ID, unique for each employee
+    name VARCHAR(100),                 -- Employee name, up to 100 characters
+    position VARCHAR(50),              -- Job position, up to 50 characters
+    salary DECIMAL(10, 2),             -- Salary, up to 10 digits with 2 decimal places
+    hire_date DATE                     -- Date when the employee was hired
+);
